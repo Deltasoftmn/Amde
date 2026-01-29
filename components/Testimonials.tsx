@@ -81,6 +81,24 @@ const Testimonials = () => {
             ))}
           </div>
         </div>
+
+        {/* Contact Section */}
+        <div id="contact" className="mt-16 max-w-3xl mx-auto bg-white rounded-lg shadow-md p-8 md:p-10">
+          <h3 className="text-2xl font-bold text-dark-brown mb-6 text-center">
+            Холбоо барих
+          </h3>
+          <div className="space-y-3 text-dark-brown/90 text-lg">
+            <p>
+              <span className="font-semibold">Хаяг:</span> ХУД, 4-р хороо, Фермерүүд зах
+            </p>
+            <p>
+              <span className="font-semibold">Утас:</span> 89986499, 91447777
+            </p>
+            <p>
+              <span className="font-semibold">И-мэйл хаяг:</span> unuruu.1988@gmail.com
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )

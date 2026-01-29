@@ -22,10 +22,12 @@ const Hero = () => {
           АМДЭ ХХК
         </h1>
         <p className="text-xl md:text-2xl text-cream mb-8 font-light">
-          Үндэсний амттаны төгс зоог
+          Хүнсний үйлдвэр
         </p>
         <Link
-          href="/order"
+          href="https://amde.zochil.shop/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block bg-light-brown hover:bg-medium-brown text-white px-8 py-4 rounded-md text-lg font-semibold transition-colors shadow-lg"
         >
           Захиалга өгөх
