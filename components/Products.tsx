@@ -82,9 +82,6 @@ const Products = () => {
               </h2>
               <div className="h-px w-16 bg-medium-brown"></div>
             </div>
-            <p className="text-lg text-dark-brown/80 mt-4">
-              Таны гэр бүлд зориулагдсан зоог
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

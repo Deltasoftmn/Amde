@@ -1,6 +1,5 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
-import Features from '@/components/Features'
 import Products from '@/components/Products'
 import About from '@/components/About'
 import Testimonials from '@/components/Testimonials'
@@ -15,9 +14,6 @@ export default function Home() {
       <main className="min-h-screen">
         <Header />
         <Hero />
-        <FadeInSection>
-          <Features />
-        </FadeInSection>
         <FadeInSection>
           <Products />
         </FadeInSection>

@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -30,9 +31,14 @@ const Header = () => {
         </nav>
 
         {/* CTA Button */}
-        <button className="bg-light-brown hover:bg-medium-brown text-white px-6 py-2 rounded-md font-semibold transition-colors">
+        <Link
+          href="https://amde.zochil.shop/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-light-brown hover:bg-medium-brown text-white px-6 py-2 rounded-md font-semibold transition-colors"
+        >
           Захиалга өгөх
-        </button>
+        </Link>
       </div>
     </header>
   )
