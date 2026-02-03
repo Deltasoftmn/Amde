@@ -66,13 +66,13 @@ const Products = () => {
               rel="noopener noreferrer"
               className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-transform duration-300 ease-out hover:-translate-y-1"
             >
-              <div className="aspect-square overflow-hidden">
+              <div className="aspect-[4/5] overflow-hidden bg-light-beige flex items-center justify-center p-4">
                 <Image
                   src={product.image}
                   alt={product.name}
                   width={400}
-                  height={400}
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                  height={500}
+                  className="w-full h-full object-contain transition-transform duration-300"
                 />
               </div>
               <div className="p-4">

@@ -17,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         'script': ['Dancing Script', 'cursive'],
+        'display': ['Playfair Display', 'serif'],
         'sans': ['Inter', 'system-ui', 'sans-serif'],
       },
     },
